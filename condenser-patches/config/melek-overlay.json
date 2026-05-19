@@ -1,0 +1,29 @@
+{
+  "app_name": "MELEK",
+  "site_domain": "melek.salon",
+  "images": {
+    "logo": "/images/logo.svg",
+    "favicon": "/images/favicon.ico"
+  },
+  "chain": {
+    "id": "melek",
+    "symbol": "MELEK",
+    "address_prefix": "MELEK",
+    "decimals": 3,
+    "block_interval": 4
+  },
+  "nodes": {
+    "default": "wss://rpc.melek.salon",
+    "backup": []
+  },
+  "fees": {
+    "account_creation": "3.000 MELEK",
+    "comment": "0.000 MELEK",
+    "vote": "0.000 MELEK"
+  },
+  "links": {
+    "whitepaper": "https://melek.salon/whitepaper",
+    "github": "https://github.com/HinduTempleCoins",
+    "explorer": "https://explorer.melek.salon"
+  }
+}
