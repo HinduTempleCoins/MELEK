@@ -24,7 +24,7 @@ using Delegated Proof of Stake (DPoS) with Witnesses as block producers.
 | Token symbol | `MELEK` |
 | Address prefix | `MELEK` |
 | Emission rate | 1 MELEK per block |
-| Block time | 4.5 seconds |
+| Block time | 4 seconds |
 | Emission schedule | Flat for 300 years, then zero |
 | Total supply (approx) | ~2.1 billion MELEK (cutoff ~year 2326) |
 | Power-down period | 13 weeks |
@@ -208,7 +208,7 @@ The chain provides the operational interface connecting fifteen years of work.
 - 1 MELEK per block. 3-second blocks. Final.
 - 200-year flat emission. No decay. Final.
 - 13-week power-down. Final.
-- 4.5-second block time. Final.
+- 4-second block time. Final.
 - 300-year flat emission. Final.
 - No SBD. No downvotes. Final.
 - Address prefix: MELEK. Final.

@@ -67,12 +67,7 @@ sed -i 's/BLURT_ADDRESS_PREFIX\s*"BLT"/BLURT_ADDRESS_PREFIX "MELEK"/g' "$CONFIG"
 # Chain ID
 sed -i 's/fc::sha256::hash("blurt")/fc::sha256::hash("melek")/g' "$CONFIG"
 
-# Block interval
-# NOTE: Standard Graphene stores block interval as integer seconds.
-# MELEK requires 4.5 seconds. This needs the fc time layer modified
-# to millisecond precision (BLURT_BLOCK_INTERVAL_MS = 4500).
-# For initial testnet, using 4 seconds as working placeholder.
-# TODO: implement 4.5s via millisecond precision before mainnet.
+# Block interval: 4 seconds
 sed -i 's/#define BLURT_BLOCK_INTERVAL\s*[0-9]*/#define BLURT_BLOCK_INTERVAL 4/g' "$CONFIG"
 
 # Emission: 300 years flat then zero
@@ -104,6 +99,5 @@ echo ""
 echo "NEXT: Generate your witness keys with cli_wallet --suggest-brain-key"
 echo ""
 echo "OPEN ITEMS before mainnet:"
-echo "  1. Implement 4.5s block time via millisecond precision in fc layer"
-echo "  2. Implement flat emission cutoff at block 2,365,200,000"
-echo "  3. Verify all BLURT references replaced throughout codebase"
+echo "  1. Implement flat emission cutoff at block 2,365,200,000"
+echo "  2. Verify all BLURT references replaced throughout codebase"
