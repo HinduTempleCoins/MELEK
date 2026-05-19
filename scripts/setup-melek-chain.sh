@@ -70,11 +70,11 @@ sed -i 's/fc::sha256::hash("blurt")/fc::sha256::hash("melek")/g' "$CONFIG"
 # Block interval: 4 seconds
 sed -i 's/#define BLURT_BLOCK_INTERVAL\s*[0-9]*/#define BLURT_BLOCK_INTERVAL 4/g' "$CONFIG"
 
-# Emission: 300 years flat then zero
-# Blocks per year at 4s: 365.25 * 24 * 3600 / 4 = 7,884,000
-# 300 years = 2,365,200,000 blocks
+# Emission: 270 years flat then zero
+# Blocks per year at 4s: 365.25 * 24 * 3600 / 4 = 7,889,400
+# 270 years = 2,130,138,000 blocks (~2.1 billion MELEK total supply)
 # The BLURT emission model needs review — flat-then-zero is a custom schedule
-# TODO: implement cutoff block height = 2,365,200,000
+# TODO: implement cutoff block height = 2,130,138,000
 echo ">>> config.hpp customized."
 echo ""
 
@@ -99,5 +99,5 @@ echo ""
 echo "NEXT: Generate your witness keys with cli_wallet --suggest-brain-key"
 echo ""
 echo "OPEN ITEMS before mainnet:"
-echo "  1. Implement flat emission cutoff at block 2,365,200,000"
+echo "  1. Implement flat emission cutoff at block 2,130,138,000 (270 years at 4s)"
 echo "  2. Verify all BLURT references replaced throughout codebase"
