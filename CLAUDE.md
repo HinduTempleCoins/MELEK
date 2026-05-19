@@ -22,16 +22,17 @@ using Delegated Proof of Stake (DPoS) with Witnesses as block producers.
 | Parameter | Value |
 |---|---|
 | Token symbol | `MELEK` |
+| Address prefix | `MELEK` |
 | Emission rate | 1 MELEK per block |
-| Block time | 3 seconds |
-| Emission schedule | Flat for 200 years, then zero |
-| Total supply (approx) | ~2.1 billion MELEK (cutoff ~year 2226) |
+| Block time | 4.5 seconds |
+| Emission schedule | Flat for 300 years, then zero |
+| Total supply (approx) | ~2.1 billion MELEK (cutoff ~year 2326) |
 | Power-down period | 13 weeks |
 | Consensus | Delegated Proof of Stake (DPoS) |
 
 No decay curve. No halving. Flat emission, then off. This is a deliberate rejection of
 Bitcoin-style scarcity theater in favor of a stable, predictable economic environment
-for the first two centuries of operation.
+for the first three centuries of operation.
 
 ---
 
@@ -207,6 +208,9 @@ The chain provides the operational interface connecting fifteen years of work.
 - 1 MELEK per block. 3-second blocks. Final.
 - 200-year flat emission. No decay. Final.
 - 13-week power-down. Final.
+- 4.5-second block time. Final.
+- 300-year flat emission. Final.
 - No SBD. No downvotes. Final.
+- Address prefix: MELEK. Final.
 - AI witness as constitutive founding member. Final.
 - Claude Code is the developer. Human witnesses are invited participants via normal DPoS.
