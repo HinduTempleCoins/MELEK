@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <!-- Kurdish flag - horizontal orientation -->
+  <!-- Red stripe (top) -->
+  <rect x="0" y="0" width="300" height="66.67" fill="#D01C1F"/>
+  <!-- White stripe (middle) -->
+  <rect x="0" y="66.67" width="300" height="66.67" fill="#FFFFFF"/>
+  <!-- Green stripe (bottom) -->
+  <rect x="0" y="133.33" width="300" height="66.67" fill="#007A3D"/>
+
+  <!-- 21-ray sun centered on white stripe -->
+  <g transform="translate(150, 100)">
+    <!-- Sun rays (21 rays) -->
+    <g fill="#F7C815">
+      <polygon points="0,-38 3,-20 -3,-20"/>
+      <polygon points="11.3,-36.4 11,-18.3 5.5,-20.9"/>
+      <polygon points="21.7,-31.3 17.8,-14.7 13.1,-18.4"/>
+      <polygon points="30.2,-23.2 22.8,-8.8 19.1,-13.4"/>
+      <polygon points="36.1,-12.9 25.6,-1.4 22.9,-6.8"/>
+      <polygon points="38.6,-1.3 26,-6.6 24.4,0.4" transform="rotate(15,0,0)"/>
+      <polygon points="38.6,-1.3 26,-6.6 24.4,0.4" transform="rotate(32,0,0)"/>
+      <polygon points="38.6,-1.3 26,-6.6 24.4,0.4" transform="rotate(49,0,0)"/>
+      <polygon points="38.6,-1.3 26,-6.6 24.4,0.4" transform="rotate(66,0,0)"/>
+      <polygon points="38.6,-1.3 26,-6.6 24.4,0.4" transform="rotate(83,0,0)"/>
+      <polygon points="38.6,-1.3 26,-6.6 24.4,0.4" transform="rotate(100,0,0)"/>
+      <polygon points="38.6,-1.3 26,-6.6 24.4,0.4" transform="rotate(117,0,0)"/>
+      <polygon points="38.6,-1.3 26,-6.6 24.4,0.4" transform="rotate(134,0,0)"/>
+      <polygon points="38.6,-1.3 26,-6.6 24.4,0.4" transform="rotate(151,0,0)"/>
+      <polygon points="38.6,-1.3 26,-6.6 24.4,0.4" transform="rotate(168,0,0)"/>
+      <polygon points="38.6,-1.3 26,-6.6 24.4,0.4" transform="rotate(185,0,0)"/>
+      <polygon points="38.6,-1.3 26,-6.6 24.4,0.4" transform="rotate(202,0,0)"/>
+      <polygon points="38.6,-1.3 26,-6.6 24.4,0.4" transform="rotate(219,0,0)"/>
+      <polygon points="38.6,-1.3 26,-6.6 24.4,0.4" transform="rotate(236,0,0)"/>
+      <polygon points="38.6,-1.3 26,-6.6 24.4,0.4" transform="rotate(253,0,0)"/>
+      <polygon points="38.6,-1.3 26,-6.6 24.4,0.4" transform="rotate(270,0,0)"/>
+    </g>
+    <!-- Sun center circle -->
+    <circle cx="0" cy="0" r="18" fill="#F7C815"/>
+  </g>
+</svg>
